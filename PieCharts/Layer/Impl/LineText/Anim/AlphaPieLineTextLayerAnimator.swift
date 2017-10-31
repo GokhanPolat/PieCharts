@@ -10,6 +10,8 @@ import UIKit
 
 public struct AlphaPieLineTextLayerAnimator: PieLineTextLayerAnimator {
     
+    public init() {}
+
     public var duration: TimeInterval = 0.3
     
     public func animate(_ layer: CALayer) {
